@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-dmsa
     spec:
       containers:
-      - image: quay.io/psturc/test-images:d0c47f559ddb4c5f9a4b214672be3106
+      - image: quay.io/psturc/test-images@sha256:8c576d20614a5c8782914c22338f3694549596a74aca460b55ef9d819fb94752
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
